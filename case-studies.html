@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Online IT Crimes Reducing System</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito+Sans:200,300,400,700,900|Oswald:400,700"> 
+    <link rel="stylesheet" href="fonts/icomoon/style.css">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="css/jquery-ui.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+    <link rel="stylesheet" href="css/mediaelementplayer.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
+    <link rel="stylesheet" href="css/fl-bigmug-line.css">
+    
+  <style>
+    
+.popup {
+  margin: 70px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 5px;
+  width: 80%;
+  position: relative;
+  transition: all 5s ease-in-out;
+}
+
+.popup h2 {
+  margin-top: 0;
+  color: #333;
+  font-family: Tahoma, Arial, sans-serif;
+}
+.popup .close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+.popup .close:hover {
+  color: #06D85F;
+}
+.popup .content {
+  max-height: 30%;
+  overflow: auto;
+}
+
+@media screen and (max-width: 700px){
+  .box{
+    width: 70%;
+  }
+  .popup{
+    width: 70%;
+  }
+}
+ </style>
+  </style>
+    <link rel="stylesheet" href="css/aos.css">
+
+    <link rel="stylesheet" href="css/style.css">
+    
+  </head>
+  <body>
+  
+    
+  
+  <div class="site-wrap">
+
+    <div class="site-navbar mt-4">
+        <div class="container py-1">
+          <div class="row align-items-center">
+            <div class="col-8 col-md-8 col-lg-4">
+              <h1 class="mb-0"><a href="index.html" class="text-white h2 mb-0"><strong class="text-uppercase">IT Crimes<span class="text-primary">.</span></strong></a></h1>
+              <p><a data-toggle="collapse" href="#collapse-1" class="btn btn-primary px-2 py-1"><svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="currentColor" class="bi bi-cart" viewBox="0 0 16 16">
+                <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+              </svg></a></p>
+              
+              <div class="border p-1 rounded mb-1">
+                
+  
+                <div class="collapse" id="collapse-1">
+                  <div class="pt-2">
+                    <p class="mb-0"><p><a href="index.html"><font color="yellow"><b>Home</b></font></a></p>
+                    <p><a href="about.html"><font color="yellow"><b>Investigation</b></font></a></p>
+                    <p><a href="practice.html"><font color="yellow"><b>Reported Cases</b></font></a></p>
+                    <p><a href="case-studies.html"><font color="yellow"><b>Alert</b></font></a></p>
+                    <p><a href="contact.html"><font color="yellow"><b>Contact</b></font></a></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-4 col-md-4 col-lg-8">
+              <nav class="site-navigation text-right text-md-right" role="navigation">
+
+                <div class="d-inline-block d-lg-none ml-md-0 mr-auto py-3"><a href="#" class="site-menu-toggle js-menu-toggle text-white"><span class="icon-menu h3"></span></a></div>
+
+                <ul class="site-menu js-clone-nav d-none d-lg-block">
+                  <li class="active">
+                    <a href="index.html">Home</a>
+                  </li>
+                  <li><a href="about.html">Investigation</a></li>
+                  <li><a href="practice.html">Reported Cases</a></li>
+                  <li><a href="case-studies.html">Alert</a></li>
+                  <li><a href="contact.html">Contact</a></li>
+                </ul>
+              </nav>
+            </div>
+           
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="site-mobile-menu">
+      <div class="site-mobile-menu-header">
+        <div class="site-mobile-menu-close mt-3">
+          <span class="icon-close2 js-menu-toggle"></span>
+        </div>
+      </div>
+      <div class="site-mobile-menu-body"></div>
+    </div> <!-- .site-mobile-menu -->
+    
+    <div class="site-blocks-cover inner-page-cover overlay" style="background-image: url('images/court.jpg');" data-aos="fade" data-stellar-background-ratio="0.5" data-aos="fade">
+      <div class="container">
+        <div class="row align-items-center justify-content-center">
+          <div class="col-md-8 text-center" data-aos="fade-up" data-aos-delay="400">
+            <h1 class="mb-4">Alert !!</h1>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+
+    <div class="site-section border-bottom">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 mb-lg-0 mb-5">
+            <img src="images/jail.jpg" alt="" class="img-fluid">
+          </div>
+          <div class="col-lg-6 pl-lg-5">
+            <h2 class="mb-4">Racist and
+              xenophobic
+              motivated insult</h2>
+            <p>18.-(1) A person shall not insult another person
+              through a computer system on the basis of race, colour,
+              descent, nationality, ethnic origin or religion.
+              (2) A person who contravenes subsection (1)
+              commits an offence and is liable on conviction to a fine of
+              not less than three million shillings or to imprisonment for
+              a term of not less than one year or to both.</p>
+                     </div>
+        </div>
+        <hr>
+        <div class="row">
+          <div class="col-lg-6 mb-lg-0 mb-5 order-lg-2">
+            <img src="images/crimes.jpg" alt="" class="img-fluid">
+          </div>
+          <div class="col-lg-6 pr-lg-5">
+            <h2 class="mb-4">Publication of
+              false information</h2>
+            <p>16.- Any person who publishes information or data
+              presented in a picture, text, symbol or any other form in a
+              computer system knowing that such information or data is
+              false, deceptive, misleading or inaccurate, and with intent
+              to defame, threaten, abuse, insult, or otherwise deceive or
+              mislead the public or councelling commission of an
+              offence, commits an offence, and shall on conviction be
+              liable to a fine of not less than five million shillings or to
+              imprisonment for a term of not less than three years or to
+              both.</p>
+            
+          </div>
+        </div>
+<hr>
+<div class="row">
+  <div class="col-lg-6 mb-lg-0 mb-5">
+    <img src="images/court.jpg" alt="" class="img-fluid">
+  </div>
+  <div class="col-lg-6 pl-lg-5">
+    <h2 class="mb-4">Pornography</h2>
+    <p>14.-(1) A person shall not publish or cause to be
+      published through a computer system or through any other
+      information and communication technology:
+      (a) pornography; or
+      (b) pornography which is lascivious or obscene.
+      (2) A person who contravenes subsection (1)
+      commits an offence and is liable on conviction, in the case
+      of publication of-
+      (a) pornography, to a fine of not less than twenty
+      million shillings or to imprisonment for a term
+      of not less than seven years or to both; and (b) pornography which is lascivious or obscene, to a
+      fine of not less than thirty million shillings or
+      to imprisonment for a term of not less than ten
+      years or to both.</p>
+             </div>
+</div>
+ <hr>
+ <div class="row">
+  <div class="col-lg-6 mb-lg-0 mb-5 order-lg-2">
+    <img src="images/crime.jpg" alt="" class="img-fluid">
+  </div>
+  <div class="col-lg-6 pr-lg-5">
+    <h2 class="mb-4">Illegal system
+      interference</h2>
+    <p>9. A person who intentionally and unlawfully
+      hinders or interferes with-
+      (a) the functioning of a computer system; or
+      (b) the usage or operation of a computer system,
+      commits an offence and is liable on conviction, to a fine of
+      not less than two million shillings or three times of value
+      the undue advantage received, whichever is greater, or to
+      imprisonment for a term of not less than one year or to
+      both.</p>
+    
+  </div>
+</div>
+
+
+
+
+      </div>
+    </div>
+
+    <div class="site-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 mb-lg-0 mb-5">
+            <img src="images/crime.jpg" alt="" class="img-fluid">
+          </div>
+          <div class="col-lg-6 pl-lg-5">
+            <h2 class="mb-4">Cyber bullying</h2>
+            <p>23. (1) A person shall not initiate or send any
+              electronic communication using a computer system to
+              another person with intent to coerce, intimidate, harass or
+              cause emotional distress.
+              (2) A person who contravenes subsection (1)
+              commits an offence and is liable on conviction to a fine of
+              not less than five million shillings or to imprisonment for a
+              term of not less than three years or to both.</p>
+           
+          </div>
+        </div>
+        <hr>
+
+
+        <div class="row">
+          <div class="col-lg-6 mb-lg-0 mb-5 order-lg-2">
+            <img src="images/crimes.jpg" alt="" class="img-fluid">
+          </div>
+          <div class="col-lg-6 pr-lg-5">
+            <h2 class="mb-4">Illegal data
+              interference</h2>
+            <p>7.-(1) A person who intentionally and unlawfully-
+              (a) damages or deteriorates computer data;
+              (b) deletes computer data;
+              (c) alters computer data;
+              (d) renders computer data meaningless, useless or
+              ineffective;
+              (e) obstructs, interrupts or interferes with the lawful use of computer data;</p>
+            <p>(f) obstructs, interrupts or interferes with any
+              person in the lawful use of computer data; or
+              (g) denies access to computer data to any person
+              authorized to access it,
+              commits an offence and is liable on conviction, to a fine of
+              not less than ten million shillings or three times the value
+              of undue advantage received, whichever is greater, or to
+              imprisonment for a term of not less than three years or to
+              both.</p>
+            <p>(2) A person who -
+              (a) communicates, discloses or transmits any
+              computer data, program, access code or
+              command to an unauthorized person;
+              (b) internationally and unlawfully receives
+              unauthorised computer data,
+              commits an offence and is liable on conviction, to a fine of
+              not less than two million shillings or three times the value
+              of the undue advantage received, whichever is greater, or to
+              imprisonment for a term of not less than one year or to
+              both.
+              (3) A person who intentionally and unlawfully
+              destroys or alters any computer data, where such data is
+              required to be maintained by law or is an evidence in any
+              proceeding under this Act by-
+              (a) mutilating, removing or modifying the data,
+              program or any other form of information
+              existing within or outside a computer system;
+              (b) activating, installing or downloading a program
+              that is designed to mutilate, remove or modify
+              data, program or any other form of information
+              existing within or outside a computer system; or (c) creating, altering, or destroying a password,
+              personal identification number, code or method
+              used to access a computer system,
+              commits an offence and is liable on conviction to a fine of
+              not less than twenty million shillings or three times the
+              value of undue advantage received, whichever is greater, or
+              to imprisonment for a term of not less than one year or to
+              both.</p>
+          </div>
+        </div>
+        <hr>
+        <div class="row">
+          <div class="col-lg-6 mb-lg-0 mb-5">
+            <img src="images/crime.jpg" alt="" class="img-fluid">
+          </div>
+          <div class="col-lg-6 pl-lg-5">
+            <h2 class="mb-4">Computer related
+              fraud</h2>
+            <p>12.-(1) A person shall not cause a loss of property to
+              another person by-
+              (a) any input, alteration, deletion, delaying
+              transmission or suppression of computer data; or
+              (b) any interference with the functioning of a
+              computer system,
+              with fraudulent or dishonest intent.
+              (2) A person who contravenes subsection (1) commits an offence and is liable on conviction, to a fine of
+              not less than twenty million shillings or three times the
+              value of undue advantage received, whichever is greater, or
+              to imprisonment for a term of not less than seven years or
+              to both.</p>
+           
+          </div>
+        </div>
+<hr>
+
+<div class="row">
+  <div class="col-lg-6 mb-lg-0 mb-5 order-lg-2">
+    <img src="images/crimes.jpg" alt="" class="img-fluid">
+  </div>
+  <div class="col-lg-6 pr-lg-5">
+    <h2 class="mb-4">Violation of
+      intellectual
+      property rights</h2>
+    <p>24.-(1) A person shall not use a computer system
+      with intent to violate intellectual property rights protected
+      under any written law.
+      (2) A person who contravenes subsection (1)
+      commits an offence and in case the infringement is on -
+      (a) non-commercial basis, is liable to a fine of not
+      less than five million shillings or to
+      imprisonment for a term of not less than three
+      years or both; or
+      (b) commercial basis, is liable to a fine of not less
+      than twenty million shillings or to imprisonment
+      for a term of not less than five years or to both,
+      in addition, be liable to pay compensation to the
+      victim of the crime as the court may deem just.</p>
+    
+  </div>
+</div>
+
+
+
+      </div>
+    </div>
+    
+    
+    <div class="section-2">
+      <div class="container">
+        <div class="row no-gutters align-items-stretch align-items-center">
+          <div class="col-lg-4">
+            <div class="service-1 first h-100" style="background-image: url('images/crime.jpg')">
+              <div class="service-1-contents">
+                <span class="wrap-icon">
+                  <span class="flaticon-balance"></span>
+                </span>
+                <h2>Hacking</h2>
+                <p>It is strictly prohibited. An intensive punishment will be granted to any suspected person.</p>     
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="service-1 h-100" style="background-image: url('images/jail.jpg')">
+              <div class="service-1-contents">
+                <span class="wrap-icon">
+                  <span class="flaticon-law"></span>
+                </span>
+                <h3> Man in the Middle Attack</h3>
+                <p>It is strictly prohibited. An intensive punishment will be granted to any suspected person.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="service-1 h-100" style="background-image: url('images/crime.jpg')">
+              <div class="service-1-contents">
+                <span class="wrap-icon">
+                  <span class="flaticon-courthouse"></span>
+                </span>
+                <h3>Denial of Service (DoS)</h3>
+                <p>It is strictly prohibited. An intensive punishment will be granted to any suspected person.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+            <div class="service-1 first h-100" style="background-image: url('images/crimes.jpg')">
+              <div class="service-1-contents">
+                <span class="wrap-icon">
+                  <span class="flaticon-balance"></span>
+                </span>
+                <h3>Digital Theft  </h3>
+                <p>It is strictly prohibited. An intensive punishment will be granted to any suspected person.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="service-1 h-100" style="background-image: url('images/court.jpg')">
+              <div class="service-1-contents">
+                <span class="wrap-icon">
+                  <span class="flaticon-law"></span>
+                </span>
+                <h3>Cyber Bullying  </h3>
+                <p>It is strictly prohibited. An intensive punishment will be granted to any suspected person.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="service-1 h-100" style="background-image: url('images/police.jpg')">
+              <div class="service-1-contents">
+                <span class="wrap-icon">
+                  <span class="flaticon-courthouse"></span>
+                </span>
+                <h3>Spoofing / Frauds</h3>
+                <p>It is strictly prohibited. An intensive punishment will be granted to any suspected person.</p>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+    
+    
+
+    
+
+
+   
+  <div class="site-section section-6">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-5 mr-auto">
+          <h2 class="mb-5">Solved <span class="text-primary">Cases</span></h2>
+          <div class="owl-carousel nonloop-block-4 testimonial-slider">
+            <div class="testimony-1">
+              <div class="d-flex align-items-center mb-4">
+                <img src="images/img_sq.jpg" alt="Image" class="vcard mr-4">
+                <div>
+                  <h3>Gerald John</h3>
+                  <p>Business Man</p>
+                </div>
+              </div>
+              <blockquote>
+                <p>Actually, I thank for the invention of this system. It helped me to punish my thief after a long time hustling and troubles</p>
+              </blockquote>
+            </div>
+
+            <div class="testimony-1">
+              <div class="d-flex align-items-center mb-4">
+                <img src="images/img_sq.jpg" alt="Image" class="vcard mr-4">
+                <div>
+                  <h3>Cesilia Abraham</h3>
+                  <p>private Sector Worker</p>
+                </div>
+              </div>
+              <blockquote>
+                <p>In past we real cried after being hacked our website. But now all stolen money were returned to us and the suspected person was real punished</p>
+              </blockquote>
+            </div>
+
+
+            <div class="testimony-1">
+              <div class="d-flex align-items-center mb-4">
+                <img src="images/img_sq.jpg" alt="Image" class="vcard mr-4">
+                <div>
+                  <h3>Emmanuel Majaliwa</h3>
+                  <p>Police Officer</p>
+                </div>
+              </div>
+              <blockquote>
+                <p>Our work now is real effective after the invention of this system since it is a real time and user friendly to any one.</p>
+              </blockquote>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          
+          <h2 class="mb-5">Frequently <span class="text-primary">Crimes</span></h2>
+
+          <div class="border p-3 rounded mb-2">
+            <a data-toggle="collapse" href="#collapse-1" role="button" aria-expanded="true" aria-controls="collapse-1" class="accordion-item h5 d-block mb-0">Hacking</a>
+
+            <div class="collapse show" id="collapse-1">
+              <div class="pt-2">
+                <p class="mb-0">People steal confidential information of someone else without a permission of the owner</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="border p-3 rounded mb-2">
+            <a data-toggle="collapse" href="#collapse-4" role="button" aria-expanded="false" aria-controls="collapse-4" class="accordion-item h5 d-block mb-0">Cyber Bullying</a>
+
+            <div class="collapse" id="collapse-4">
+              <div class="pt-2">
+                <p class="mb-0">People disrespect others on the cyberspace for bad intention, social image and status disruption</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="border p-3 rounded mb-2">
+            <a data-toggle="collapse" href="#collapse-2" role="button" aria-expanded="false" aria-controls="collapse-2" class="accordion-item h5 d-block mb-0">Denial of Service Attack (DoS)</a>
+
+            <div class="collapse" id="collapse-2">
+              <div class="pt-2">
+                <p class="mb-0">People cause miscommunication to the established group of computers and digital devices in the organisation</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="border p-3 rounded mb-2">
+            <a data-toggle="collapse" href="#collapse-3" role="button" aria-expanded="false" aria-controls="collapse-3" class="accordion-item h5 d-block mb-0">Man in the Middle Attack</a>
+
+            <div class="collapse" id="collapse-3">
+              <div class="pt-2">
+                <p class="mb-0">People bypass the information of others without a permission of the owners</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+  
+
+  <div class="bg-primary" data-aos="fade">
+    <div class="container">
+      <div class="row">
+        <a href="#" class="col-2 text-center py-4 social-icon d-block"><span class="icon-facebook text-white"></span></a>
+        <a href="#" class="col-2 text-center py-4 social-icon d-block"><span class="icon-twitter text-white"></span></a>
+        <a href="#" class="col-2 text-center py-4 social-icon d-block"><span class="icon-instagram text-white"></span></a>
+        <a href="#" class="col-2 text-center py-4 social-icon d-block"><span class="icon-linkedin text-white"></span></a>
+        <a href="#" class="col-2 text-center py-4 social-icon d-block"><span class="icon-pinterest text-white"></span></a>
+        <a href="#" class="col-2 text-center py-4 social-icon d-block"><span class="icon-youtube text-white"></span></a>
+      </div>
+    </div>
+  </div>
+
+  <footer class="site-footer">
+    
+
+
+     
+      
+         <center> <p>
+                   Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | By <a href="https://fmpiza.github.io/webfridolin" target="_blank" >Fridolin</a>
+          
+          </p></center>
+        
+  </footer>
+
+</div>
+
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/jquery-migrate-3.0.1.min.js"></script>
+<script src="js/jquery-ui.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/mediaelement-and-player.min.js"></script>
+<script src="js/jquery.stellar.min.js"></script>
+<script src="js/jquery.countdown.min.js"></script>
+<script src="js/jquery.magnific-popup.min.js"></script>
+<script src="js/bootstrap-datepicker.min.js"></script>
+<script src="js/aos.js"></script>
+<!-- <script src="js/circleaudioplayer.js"></script> -->
+
+<script src="js/main.js"></script>
+  
+</body>
+</html>

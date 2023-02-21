@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Online IT Crimes Reducing System</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito+Sans:200,300,400,700,900|Oswald:400,700"> 
+    <link rel="stylesheet" href="fonts/icomoon/style.css">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="css/jquery-ui.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+    <link rel="stylesheet" href="css/mediaelementplayer.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
+    <link rel="stylesheet" href="css/fl-bigmug-line.css">
+    
+  <style>
+    
+.popup {
+  margin: 70px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 5px;
+  width: 80%;
+  position: relative;
+  transition: all 5s ease-in-out;
+}
+
+.popup h2 {
+  margin-top: 0;
+  color: #333;
+  font-family: Tahoma, Arial, sans-serif;
+}
+.popup .close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+.popup .close:hover {
+  color: #06D85F;
+}
+.popup .content {
+  max-height: 30%;
+  overflow: auto;
+}
+
+@media screen and (max-width: 700px){
+  .box{
+    width: 70%;
+  }
+  .popup{
+    width: 70%;
+  }
+}
+ </style>
+  </style>
+    <link rel="stylesheet" href="css/aos.css">
+
+    <link rel="stylesheet" href="css/style.css">
+    
+  </head>
+  <body>
+  
+    
+  
+  <div class="site-wrap">
+
+    <div class="site-navbar mt-4">
+        <div class="container py-1">
+          <div class="row align-items-center">
+            <div class="col-8 col-md-8 col-lg-4">
+              <h1 class="mb-0"><a href="index.html" class="text-white h2 mb-0"><strong class="text-uppercase">IT Crimes<span class="text-primary">.</span></strong></a></h1>
+              <p><a data-toggle="collapse" href="#collapse-1" class="btn btn-primary px-2 py-1"><svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="currentColor" class="bi bi-cart" viewBox="0 0 16 16">
+                <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+              </svg></a></p>
+              
+              <div class="border p-1 rounded mb-1">
+                
+  
+                <div class="collapse" id="collapse-1">
+                  <div class="pt-2">
+                    <p class="mb-0"><p><a href="index.html"><font color="yellow"><b>Home</b></font></a></p>
+                    <p><a href="about.html"><font color="yellow"><b>Investigation</b></font></a></p>
+                    <p><a href="practice.html"><font color="yellow"><b>Reported Cases</b></font></a></p>
+                    <p><a href="case-studies.html"><font color="yellow"><b>Alert</b></font></a></p>
+                    <p><a href="contact.html"><font color="yellow"><b>Contact</b></font></a></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-4 col-md-4 col-lg-8">
+              <nav class="site-navigation text-right text-md-right" role="navigation">
+
+                <div class="d-inline-block d-lg-none ml-md-0 mr-auto py-3"><a href="#" class="site-menu-toggle js-menu-toggle text-white"><span class="icon-menu h3"></span></a></div>
+
+                <ul class="site-menu js-clone-nav d-none d-lg-block">
+                  <li class="active">
+                    <a href="index.html">Home</a>
+                  </li>
+                  <li><a href="about.html">Investigation</a></li>
+                  <li><a href="practice.html">Reported Cases</a></li>
+                  <li><a href="case-studies.html">Alert</a></li>
+                  <li><a href="contact.html">Contact</a></li>
+                </ul>
+              </nav>
+            </div>
+           
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="site-mobile-menu">
+      <div class="site-mobile-menu-header">
+        <div class="site-mobile-menu-close mt-3">
+          <span class="icon-close2 js-menu-toggle"></span>
+        </div>
+      </div>
+      <div class="site-mobile-menu-body"></div>
+    </div> <!-- .site-mobile-menu -->
+    
+    <div class="site-blocks-cover overlay" style="background-image: url('images/crimes.jpg');" data-aos="fade" data-stellar-background-ratio="0.5" data-aos="fade">
+      <div class="container">
+        <div class="row align-items-center justify-content-center">
+          <div class="col-md-8 text-center" data-aos="fade-up" data-aos-delay="400">
+            <h1 class="mb-4"><font size=6>Stop Crimes</font></h1>
+            <p>.</p>
+             <p><b><font size=4> Be Accountable</font></b></p>
+            <p class="mb-5"><font size5>Stop Crimes, Report Now. 24 Hours Active Service. Law Enforcing Bodies are Here for Assistance</font></p>
+            <p><a href="#" class="btn btn-primary px-4 py-3">Start Now</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    
+    <div class="site-section section-1">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 mb-md-4">
+            <img src="images/crime.jpg" alt="Image" class="img-fluid">
+          </div>
+          <div class="col-lg-4">
+            <div class="px-lg-3">
+              <p class="dropcap">Online IT Crimes Reducing System is an automated engineered system with a responsibilities of making sure that justice and all crimes are well reported and solved.</p>
+              <p>Wherever Crimes that will occur, it will be well reported, traced and law enforcing bodies will be accountable for a justice to take place.</p>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <p>A reported Crime will be stored in database for faster, effective and clear decision as required. Including a punishment to a suspected person after an intensive forensic procedures to take place.</p>
+            <p>Be free, we are here to assist you.</p>
+            <!-- <blockquote class="blockquote">
+              <p>We're committed to success &amp; genuine provider of all types of legal services</p>
+            </blockquote> -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="section-2">
+      <div class="container">
+        <div class="row no-gutters align-items-stretch align-items-center">
+          <div class="col-lg-3 section-title">
+            <div class="service-1-title h-100">
+              <h2 class="text-white">Chain of Forensic</h2>
+              <p>A clear structure of case forensic is taken. including from a suspected area (Area of Crime) to the high law enforcing bodies for the justice decision </p>
+              <p><a href="#" class="more">View All</a></p>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="service-1 first h-100" style="background-image: url('images/police.jpg')">
+              <div class="service-1-contents">
+                <span class="wrap-icon">
+                  <span class="flaticon-balance"></span>
+                </span>
+                <h2>Police</h2>
+                <p>Law enforcing procedures to a suspected person will be well taken for a justice. Therefore, further procedures will be done</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="service-1 h-100" style="background-image: url('images/court.jpg')">
+              <div class="service-1-contents">
+                <span class="wrap-icon">
+                  <span class="flaticon-law"></span>
+                </span>
+                <h2>Court</h2>
+                <p>An intensive investigation / forensic procedures will be well managed for a justice to take place in the court of law</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="service-1 h-100" style="background-image: url('images/jail.jpg')">
+              <div class="service-1-contents">
+                <span class="wrap-icon">
+                  <span class="flaticon-courthouse"></span>
+                </span>
+                <h2>Judgement</h2>
+                <p>A clear law judgement by the court of law will be well taken. Therefore, a suspected person will be punished</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="site-section section-3">
+      <div class="container">
+        <div class="row justify-content-center mb-5">
+          <div class="col-lg-6 section-title text-center">
+            <h2>Some of Crimes</h2>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="service-2 d-flex">
+              <div class="service-2-icon mr-3"><span class="flaticon-law"></span></div>
+              <div class="service-2-contents">
+                <h3>Spoofing / Frauds</h3>
+                <p>It is strictly prohibited. An intensive punishment will be granted to any suspected person.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="service-2 d-flex">
+              <div class="service-2-icon mr-3"><span class="flaticon-balance"></span></div>
+              <div class="service-2-contents">
+                <h3>Digital Theft  </h3>
+                <p>It is strictly prohibited. An intensive punishment will be granted to any suspected person.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="service-2 d-flex">
+              <div class="service-2-icon mr-3"><span class="flaticon-auction"></span></div>
+              <div class="service-2-contents">
+                <h3>Cyber Bullying  </h3>
+                <p>It is strictly prohibited. An intensive punishment will be granted to any suspected person.</p>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="service-2 d-flex">
+              <div class="service-2-icon mr-3"><span class="flaticon-auction"></span></div>
+              <div class="service-2-contents">
+                <h3>Denial of Service (DoS)</h3>
+                <p>It is strictly prohibited. An intensive punishment will be granted to any suspected person.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="service-2 d-flex">
+              <div class="service-2-icon mr-3"><span class="flaticon-courthouse"></span></div>
+              <div class="service-2-contents">
+                <h3> Man in the Middle Attack</h3>
+                <p>It is strictly prohibited. An intensive punishment will be granted to any suspected person.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="service-2 d-flex">
+              <div class="service-2-icon mr-3"><span class="flaticon-law"></span></div>
+              <div class="service-2-contents">
+                <h3>Hacking</h3>
+                <p>It is strictly prohibited. An intensive punishment will be granted to any suspected person.</p>            </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="site-section section-4" style="background-image: url('images/hero_2.jpg')">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-5 mr-auto mb-5">
+            <h2 class="mb-3">24 Hours Service</h2>
+            <p class="mb-4 d-block">Reach Us for an immediately assistance through a landline and mobile phone contacts</p>
+            <p><a href="contact.html" class="btn btn-primary py-3 px-4">Call Us</a></p>
+          </div>
+          <div class="col-lg-6">
+            <div class="row">
+
+              <div class="col-md-6 mb-4">
+                <div class="feature-1 d-flex">
+                  <span class="feature-1-icon mr-3">
+                    <span class="flaticon-law"></span>
+                  </span>
+                  <div class="feature-1-contents">
+                    <strong class="number">100%</strong>
+                    <span class="caption">Solved Cases</span>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 mb-4">
+                <div class="feature-1 d-flex">
+                  <span class="feature-1-icon mr-3">
+                    <span class="flaticon-law"></span>
+                  </span>
+                  <div class="feature-1-contents">
+                    <strong class="number">421+</strong>
+                    <span class="caption">Users</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-6 mb-4">
+                <div class="feature-1 d-flex">
+                  <span class="feature-1-icon mr-3">
+                    <span class="flaticon-law"></span>
+                  </span>
+                  <div class="feature-1-contents">
+                    <strong class="number">392+</strong>
+                    <span class="caption">Law Experts</span>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 mb-4">
+                <div class="feature-1 d-flex">
+                  <span class="feature-1-icon mr-3">
+                    <span class="flaticon-law"></span>
+                  </span>
+                  <div class="feature-1-contents">
+                    <strong class="number">100%</strong>
+                    <span class="caption">Forensic</span>
+                  </div>
+                </div>
+              </div>
+
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+    
+
+    <div class="site-section section-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-5 mr-auto">
+            <h2 class="mb-4">Area of Crime <span class="text-primary">Details</span></h2>
+            <p>Please fill the required details</p>
+            <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid modi porro impedit ea saepe nihil distinctio labore expedita, debitis numquam!</p> -->
+
+            <div class="call-now">
+              
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="form-request">
+              <h2>Area of Crime Details</h2>
+              <form action="#">
+                <div class="form-group">
+                   <div class="form-group">
+                  <input type="text" class="form-control" placeholder="Your Full Name">
+                </div>
+                <div class="form-group">
+                  <input type="text" class="form-control" placeholder="Your Phone Number">
+                </div>
+                  <input type="text" class="form-control" placeholder="Area of Crime" required>
+                </div>
+                 <div class="form-group">
+                  <input type="text" class="form-control" placeholder="Name of Supected Person">
+                </div>
+                 <div class="form-group">
+                  <input type="text" class="form-control" placeholder="Type of Crime" required>
+                </div>
+                 <div class="form-group">
+                  <input type="text" class="form-control" placeholder="Ip Address of Equipment">
+                </div>
+                 <div class="form-group">
+                  <input type="text" class="form-control" placeholder="District" required>
+                </div>
+                 <div class="form-group">
+                  <input type="text" class="form-control" placeholder="Region" required>
+                </div>
+                 <div class="form-group">
+                  <input type="text" class="form-control" placeholder="Country" required>
+                </div>
+
+                
+                <div class="form-group">
+                  <textarea class="form-control" placeholder="Case Description" id="" cols="30" rows="2"></textarea>
+                </div>
+                <div class="form-group">
+                  <input type="submit" class="btn btn-primary" value="Report">
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+
+    <div class="site-section section-6">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-5 mr-auto">
+            <h2 class="mb-5">Solved <span class="text-primary">Cases</span></h2>
+            <div class="owl-carousel nonloop-block-4 testimonial-slider">
+              <div class="testimony-1">
+                <div class="d-flex align-items-center mb-4">
+                  <img src="images/img_sq.jpg" alt="Image" class="vcard mr-4">
+                  <div>
+                    <h3>Gerald John</h3>
+                    <p>Business Man</p>
+                  </div>
+                </div>
+                <blockquote>
+                  <p>Actually, I thank for the invention of this system. It helped me to punish my thief after a long time hustling and troubles</p>
+                </blockquote>
+              </div>
+
+              <div class="testimony-1">
+                <div class="d-flex align-items-center mb-4">
+                  <img src="images/img_sq.jpg" alt="Image" class="vcard mr-4">
+                  <div>
+                    <h3>Cesilia Abraham</h3>
+                    <p>private Sector Worker</p>
+                  </div>
+                </div>
+                <blockquote>
+                  <p>In past we real cried after being hacked our website. But now all stolen money were returned to us and the suspected person was real punished</p>
+                </blockquote>
+              </div>
+
+
+              <div class="testimony-1">
+                <div class="d-flex align-items-center mb-4">
+                  <img src="images/img_sq.jpg" alt="Image" class="vcard mr-4">
+                  <div>
+                    <h3>Emmanuel Majaliwa</h3>
+                    <p>Police Officer</p>
+                  </div>
+                </div>
+                <blockquote>
+                  <p>Our work now is real effective after the invention of this system since it is a real time and user friendly to any one.</p>
+                </blockquote>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            
+            <h2 class="mb-5">Frequently <span class="text-primary">Crimes</span></h2>
+
+            <div class="border p-3 rounded mb-2">
+              <a data-toggle="collapse" href="#collapse-1" role="button" aria-expanded="true" aria-controls="collapse-1" class="accordion-item h5 d-block mb-0">Hacking</a>
+
+              <div class="collapse show" id="collapse-1">
+                <div class="pt-2">
+                  <p class="mb-0">People steal confidential information of someone else without a permission of the owner</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="border p-3 rounded mb-2">
+              <a data-toggle="collapse" href="#collapse-4" role="button" aria-expanded="false" aria-controls="collapse-4" class="accordion-item h5 d-block mb-0">Cyber Bullying</a>
+
+              <div class="collapse" id="collapse-4">
+                <div class="pt-2">
+                  <p class="mb-0">People disrespect others on the cyberspace for bad intention, social image and status disruption</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="border p-3 rounded mb-2">
+              <a data-toggle="collapse" href="#collapse-2" role="button" aria-expanded="false" aria-controls="collapse-2" class="accordion-item h5 d-block mb-0">Denial of Service Attack (DoS)</a>
+
+              <div class="collapse" id="collapse-2">
+                <div class="pt-2">
+                  <p class="mb-0">People cause miscommunication to the established group of computers and digital devices in the organisation</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="border p-3 rounded mb-2">
+              <a data-toggle="collapse" href="#collapse-3" role="button" aria-expanded="false" aria-controls="collapse-3" class="accordion-item h5 d-block mb-0">Man in the Middle Attack</a>
+
+              <div class="collapse" id="collapse-3">
+                <div class="pt-2">
+                  <p class="mb-0">People bypass the information of others without a permission of the owners</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+    
+
+    <div class="bg-primary" data-aos="fade">
+      <div class="container">
+        <div class="row">
+          <a href="#" class="col-2 text-center py-4 social-icon d-block"><span class="icon-facebook text-white"></span></a>
+          <a href="#" class="col-2 text-center py-4 social-icon d-block"><span class="icon-twitter text-white"></span></a>
+          <a href="#" class="col-2 text-center py-4 social-icon d-block"><span class="icon-instagram text-white"></span></a>
+          <a href="#" class="col-2 text-center py-4 social-icon d-block"><span class="icon-linkedin text-white"></span></a>
+          <a href="#" class="col-2 text-center py-4 social-icon d-block"><span class="icon-pinterest text-white"></span></a>
+          <a href="#" class="col-2 text-center py-4 social-icon d-block"><span class="icon-youtube text-white"></span></a>
+        </div>
+      </div>
+    </div>
+
+    <footer class="site-footer">
+      
+
+
+       
+        
+           <center> <p>
+                     Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | By <a href="https://fmpiza.github.io/webfridolin" target="_blank" >Fridolin</a>
+            
+            </p></center>
+          
+    </footer>
+
+  </div>
+
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/jquery-migrate-3.0.1.min.js"></script>
+  <script src="js/jquery-ui.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/mediaelement-and-player.min.js"></script>
+  <script src="js/jquery.stellar.min.js"></script>
+  <script src="js/jquery.countdown.min.js"></script>
+  <script src="js/jquery.magnific-popup.min.js"></script>
+  <script src="js/bootstrap-datepicker.min.js"></script>
+  <script src="js/aos.js"></script>
+  <!-- <script src="js/circleaudioplayer.js"></script> -->
+
+  <script src="js/main.js"></script>
+    
+  </body>
+</html>
